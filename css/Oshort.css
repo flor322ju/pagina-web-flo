@@ -1,0 +1,136 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0 ; padding: 0;  
+ }
+ html{
+     font-size: 50.5%;
+     scroll-behavior: smooth;
+     scroll-padding-top: 7rem;
+     overflow-x: hidden;
+ 
+ }
+ 
+ section{
+     padding: 2rem ;
+ }
+ 
+ 
+  .heading{
+     font-size: 4rem;
+     color:black;
+     text-align: center;
+  }
+  span {
+     color:red;
+  }
+  .box-container{
+     display: flex;
+     flex-wrap: wrap;
+     gap:1.5rem;
+     justify-content: center;
+  }
+  .box{
+     flex: 1 1 35rem;
+     border-radius:  .4rem;
+     overflow: hidden;
+     position: relative;
+ 
+  }
+ 
+  .a{
+     font-size: 2rem;
+     height: 2rem;
+     width: 2rem;
+     background: rgb(180, 34, 34);
+     border-radius:  .5rem;
+ 
+  }
+  .imagen{
+     height: 70vh;
+     width: 100%;
+     overflow: hidden;
+     margin: 5px;/*se vuelve mas cerca al cotenedor*/
+     border-radius: 8px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 15px;
+     background: cornflowerblue;
+     object-fit: cover;
+     
+ 
+ 
+ 
+ 
+  }
+ 
+  
+ 
+  .img{
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+  }
+ .content{
+     padding: 1rem 1.5rem;
+ }
+ 
+ h3{
+     font-size: 2rem;
+     color: black;
+     font-weight: normal;
+ }
+ .price{
+     padding: .5rem 0;
+     display: flex;
+     gap: .5rem;
+ 
+ }
+ .amount{
+     font-size: 2.2rem;
+     font-weight: bolder;
+     color: black;
+ }
+ .cut{
+     font-size: 2rem;
+     text-decoration: aqua;
+     color: rgb(3, 90, 61);
+ 
+ }
+ .offer{
+     font-size: 2rem;
+     color: brown;
+ }
+ .stars{
+     font-size: 1.7rem; /*para el cincuenta */
+   
+ }
+ 
+ @media (min-width: 850px) {
+     #products .box-container{
+         width: 100%;
+         justify-content: center;
+         display: flex;
+         flex-wrap: wrap;
+     }
+ }
+ nav a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 2rem;
+    color:rgb(246, 248, 250);
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: rgb(240, 13, 119);
+}
+
+.nuestros-productos{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(12, 12, 12);
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
